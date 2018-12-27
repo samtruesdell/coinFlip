@@ -2,7 +2,7 @@
 
 #BSUB -W 00:15                # How much time does your job need (HH:MM)
 #BSUB -q short                # Which queue {short, long, parallel, GPU, interactive}
-#BSUB -J "run"                # Job Name
+#BSUB -J "hpccRun"            # Job Name
 #BSUB -R rusage[mem=1000]     # Memory requirements (in MB)
 #BSUB -n 1                    # Number of nodes to use
 #BSUB -o "./%J.o"             # Specifies name of the output file

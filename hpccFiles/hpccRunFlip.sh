@@ -2,7 +2,7 @@
 
 #BSUB -W 03:59                # How much time does your job need (HH:MM)
 #BSUB -q short                # Which queue
-#BSUB -J "runSim[1-10]"       # Job Name (and array size)
+#BSUB -J "hpccRunFlip[1-10]   # Job Name (and array size)
 #BSUB -R rusage[mem=1000]     # Memory requirements (in MB)
 #BSUB -n 1                    # Number of nodes to use
 #BSUB -o "./%J.o"             # Specifies name of the output file
