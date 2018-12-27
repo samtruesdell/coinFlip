@@ -10,7 +10,7 @@
 
 
 bsub < hpccRunPre.sh          # Submit job runPre.sh
-bsub < hppcRunFlip.sh         # Submit job runSim.sh
-bsub < hppcRunPost.sh         # Submit job runPost.sh
+bsub < hpccRunFlip.sh         # Submit job runSim.sh
+bsub < hpccRunPost.sh         # Submit job runPost.sh
 
 echo "run complete"           # Print statement indicating job is done
