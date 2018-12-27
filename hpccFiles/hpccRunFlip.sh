@@ -7,7 +7,7 @@
 #BSUB -n 1                    # Number of nodes to use
 #BSUB -o "./%J.o"             # Specifies name of the output file
 #BSUB -e "./%J.e"             # Specifies name of the error file
-#BSUB -w 'done(runPre)'       # wait to submit until down with runPre job
+#BSUB -w 'done(hpccRunPre)'       # wait to submit until down with runPre job
 
 cd coinFlip/                  # change directories to groundfish-MSE
 module load R/3.4.0           # load R module
