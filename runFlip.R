@@ -8,7 +8,7 @@
 
 nflip <- 1       # How many times to flip the code in this local simulation
 
-sleepTime <- 0.1  # Extra sleep time to emulate more complicated simulation
+sleepTime <- 5  # Extra sleep time to emulate more complicated simulation
 
 
 #### Coin flip loop ####
@@ -29,7 +29,7 @@ for(i in 1:nflip){
                    prob = 0.5)
   
   # SystemSleep to emulate longer running script...
-  Sys.sleep(time = 0.1)
+  Sys.sleep(time = sleepTime)
   
   
   #### Generate Output File Info ####
@@ -56,6 +56,11 @@ for(i in 1:nflip){
   #### Create output file ####
   
   cat(isHead, file = outPath)
+  
+  #### Track progress ####
+  
+  # print(paste('i =', i))
+  cat('Completed rep', i, '\n')
   
 }
 
