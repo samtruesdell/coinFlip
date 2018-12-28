@@ -9,9 +9,9 @@
 #BSUB -e "./%J.e"             # Specifies name of the error file
 
 
-rm -r -f coinFlip/     # remove old directory
+rm -r -f coinFlip/            # remove old directory
 
-module load git/2.1.3        # load the git module
+module load git/2.1.3         # load the git module
 
 # clone the repository
 git clone https://github.com/samtruesdell/coinFlip
