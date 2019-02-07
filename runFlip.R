@@ -6,7 +6,7 @@
 
 #### Simulation Parameters ####
 
-nflip <- 1       # How many times to flip the code in this local simulation
+nflip <- 3       # How many times to flip the code in this local simulation
 
 sleepTime <- 0.1  # Extra sleep time to emulate more complicated simulation
 
