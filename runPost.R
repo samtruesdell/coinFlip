@@ -36,14 +36,22 @@ resultsTab <- table(resultsVec)
 #### Create a barplot of the results ####
 
 # open a jpeg file
-jpeg(filename = 'results/coinFlipBarPlot.jpg')
+jpeg(filename = 'coinFlipBarPlot.jpg')
 
+  par(mar = c(5,5,4,1))
+  
   # plot the tabulated results
   barplot(height = resultsTab, 
-          main = 'Tabulated Results',
-          xlab = 'Coin reading',
-          ylab = 'Frequency',
-          names.arg = c('Tails', 'Heads'))
+          xlab = '',
+          ylab = '',
+          names.arg = c('Tails', 'Heads'),
+          cex.names = 2,
+          las = 1,
+          cex.axis = 1.5)
+  mtext(side = c(1,2,3),
+        line = c(3.5, 3, 2),
+        cex = 2.5,
+        text = c('Coin reading', 'Frequency', 'Tabulated Results'))
 
 # close the jpeg file
 dev.off()
