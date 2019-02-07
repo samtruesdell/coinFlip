@@ -3,7 +3,6 @@
 # nflip to number of flips you want to record. If running on HPCC, set
 # nflip to 1.
 
-
 #### Simulation Parameters ####
 
 # How many times to flip the code in this local simulation
