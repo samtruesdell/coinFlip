@@ -7,7 +7,7 @@
 # Remove old results files if they exist
 unlink('results', recursive = TRUE)
 
-# Create new results files
+# Create new results directory if it does not exist
 dir.create('results')
 
 
