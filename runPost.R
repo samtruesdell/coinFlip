@@ -2,7 +2,7 @@
 # runPost.R reads in the results files created by runFlip.R, concatonates
 # them into a vector and outputs a barplot.
 
-
+# a change
 
 #### Read in the output files and create a vector of coin flip results ####
 

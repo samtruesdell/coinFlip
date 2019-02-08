@@ -6,11 +6,11 @@
 #### Simulation Parameters ####
 
 # How many times to flip the code in this local simulation
-nflip <- 30
+nflip <- 25
 
 # Extra sleep time to emulate more complicated simulation (larger for
 # HPCC example)
-sleepTime <- 0.1
+sleepTime <- 3
 
 
 #### Coin flip loop ####
