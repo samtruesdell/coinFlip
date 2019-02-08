@@ -6,7 +6,7 @@
 #### Simulation Parameters ####
 
 # How many times to flip the code in this local simulation
-nflip <- 3
+nflip <- 25
 
 # Extra sleep time to emulate more complicated simulation (larger for
 # HPCC example)
