@@ -10,7 +10,7 @@ nflip <- 15
 
 # Extra sleep time to emulate more complicated simulation (larger for
 # HPCC example)
-sleepTime <- 3
+sleepTime <- 30
 
 
 #### Coin flip loop ####
