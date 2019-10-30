@@ -18,7 +18,7 @@ git clone https://github.com/samtruesdell/coinFlip
 
 module load R/3.4.0          # load R module
 
-cd coinFlip/                 # change directories to groundfish-MSE
+cd coinFlip/                 # change directories to coinFlip
 
 Rscript ./runPre.R --vanilla    # Run the runPre.R code
 
