@@ -10,7 +10,7 @@
 #BSUB -w 'done(hpccRunFlip[1-10])'   # wait to submit until down with runSim job
 
 module load R/3.4.0                  # load R module
-cd coinFlip/                         # change directories to groundfish-MSE
-Rscript ./runPost.R --vanilla        # Run the runPost.R code
+#cd coinFlip/                         # change directories to groundfish-MSE
+Rscript ../runPost.R --vanilla        # Run the runPost.R code
 
 echo "runPost complete"              # Print statement indicating job is done

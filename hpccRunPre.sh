@@ -9,17 +9,17 @@
 #BSUB -e "./%J.e"             # Specifies name of the error file
 
 
-rm -r -f coinFlip/            # remove old directory
+#rm -r -f coinFlip/            # remove old directory
 
-module load git/2.1.3         # load the git module
+#module load git/2.1.3         # load the git module
 
 # clone the repository
-git clone https://github.com/samtruesdell/coinFlip
+#git clone https://github.com/samtruesdell/coinFlip
 
 module load R/3.4.0          # load R module
 
-cd coinFlip/                 # change directories to coinFlip
+#cd coinFlip/                 # change directories to coinFlip
 
-Rscript ./runPre.R --vanilla    # Run the runPre.R code
+Rscript ../runPre.R --vanilla    # Run the runPre.R code
 
 echo "runPre complete"       # Print statement indicating job is done
