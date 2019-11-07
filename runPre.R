@@ -16,8 +16,3 @@ timeString <- format(x = time,
 dirName <- paste('results', timeString, sep='_')
 dir.create(dirName)
 
-
-
-
-
-
