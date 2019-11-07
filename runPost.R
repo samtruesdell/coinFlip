@@ -39,8 +39,11 @@ for(i in 1:nResults){
 # Convert the results into a vector from a list
 resultsVec <- unlist(resultsList)
 
-# tabulate the results vector
-resultsTab <- table(resultsVec)
+# tabulate the results vector. Make them into a factor
+# and specify the levels (in case all flips come up heads
+# or tails)
+resultsTab <- table(factor(resultsVec,
+                           levels = c(0,1)))
 
 
 
