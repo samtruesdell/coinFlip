@@ -20,6 +20,6 @@ module load R/3.4.0          # load R module
 
 #cd coinFlip/                 # change directories to coinFlip
 
-Rscript ../runPre.R --vanilla    # Run the runPre.R code
+Rscript ./runPre.R --vanilla    # Run the runPre.R code
 
 echo "runPre complete"       # Print statement indicating job is done

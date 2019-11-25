@@ -12,6 +12,6 @@
 #cd coinFlip/                  # change directories to groundfish-MSE
 module load R/3.4.0           # load R module
 
-Rscript ../runFlip.R --vanilla       # Run the runFlip.R code
+Rscript ./runFlip.R --vanilla       # Run the runFlip.R code
 
 echo "runFlip complete"       # Print statement indicating job is done
